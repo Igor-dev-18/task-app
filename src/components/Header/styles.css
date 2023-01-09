@@ -1,0 +1,10 @@
+.header{
+    background-color: rgba(14, 13, 13, 0.088);
+    padding: 16px 32px;
+}
+
+.header nav h1{
+    font-size: 24px;
+    line-height: 140%;
+
+}

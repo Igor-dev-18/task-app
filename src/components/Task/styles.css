@@ -1,0 +1,91 @@
+.task {
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  
+}
+.default-title {
+  color: #464364;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.popup {
+  padding: 32px 16px;
+  background-color: #0e0e0eec;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editing-task {
+  position: relative;
+  flex-grow: 1;
+  background-color: #fff;
+  flex-basis: 250px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px;
+  border-radius: 4px;
+}
+
+
+.editing-task input,
+.editing-task select {
+  padding: 8px;
+  font-size: 16px;
+  line-height: 150%;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.buttons-task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.buttons-task button {
+  margin-top: 16px;
+  padding: 8px 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons-task .btn-save {
+  background-color: #22b14d;
+}
+.buttons-task .btn-remove {
+  background-color: #ea4335;
+}
+
+.close-popup{
+    position: absolute;
+    top: -20px;
+    right: -18px;
+    background-color:#19214F ;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    transition: all 285ms ease;
+}
+.close-popup:hover{
+    transform: rotate(90deg);
+}

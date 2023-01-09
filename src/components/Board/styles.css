@@ -1,0 +1,71 @@
+.board {
+  height: calc(100vh - 65.6px);
+}
+.board-bar {
+  padding: 12px 32px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #bac3d2;
+}
+.options-view {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.options-view button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: #94a0b4;
+  transition: all 285ms ease;
+}
+.options-view button:hover {
+  background-color: #7f8899;
+}
+
+.btn-new-group {
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 150%;
+  border-radius: 4px;
+  background-color: #94a0b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 48px;
+}
+
+.btn-new-group input {
+  height: 40px;
+  font-size: 16px;
+  line-height: 150%;
+  border: none;
+  padding: 8px 16px;
+  color: #333;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.btn-new-group input::placeholder {
+  color: #464364;
+}
+.board-content {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 16px;
+  height: 100%;
+  padding: 32px 0;
+  gap: 24px;
+}
+
+.board-content.column {
+  flex-wrap: nowrap;
+}
+.board-content.grid {
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 32px 16px;
+}

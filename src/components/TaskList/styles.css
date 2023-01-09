@@ -1,0 +1,73 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+  flex-grow: 1;
+  flex-basis: 250px;
+  flex-shrink: 0;
+  max-width: 350px;
+  border-radius: 4px;
+  color: #19214f;
+  background: #19214f07;
+  padding: 24px 12px;
+  border-radius: 4px;
+  border-right: 4px solid #4643644b;
+}
+
+.task-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+.task-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.task-remove {
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  background-color: #19214f;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.task-content {
+  padding: 12px 0;
+}
+
+.task-btn-add {
+  background-color: #8ab4f8;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+  transition: all 220ms ease;
+}
+.task-btn-add:hover {
+  background-color: #6c95d7;
+}
+
+.empty {
+  color: #19214f7a;
+  padding: 8px;
+  border: 2px dashed #19214f36;
+  text-align: center;
+  border-radius: 4px;
+}

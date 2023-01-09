@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Task App
+Um modelo de app para gerenciamento de tarefas feito com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tecnologias Utilizadas
+* HTML
+* CSS
+* JS
+* React
+* React-icons
 
-## Available Scripts
+## Inrterface
 
-In the project directory, you can run:
+### Visão Default
+![Visão Default](./public/images/interface-1.png)
 
-### `npm start`
+### Visão com grupos criados
+![Visão Default](./public/images/groups.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Visão mobile
+![Visão Default](./public/images/versao-mobile.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `npm run build`
+#### Adicionar novo grupo de tarefas
+Ao clicar sobre o botão "Novo Grupo" é possível adicionar um novo grupo de tarefas informando o seu respectivo nome.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Adicionar novo grupo de tarefas](./public/images/add-group.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Adicionar nova tarefa
+Ao clicar sobre o botão "Novo Card", dentro de um grupo, é possível adicionar uma nova tarefa ao grupo.
 
-### `npm run eject`
+![Adicionar novo grupo de tarefas](./public/images/add-task.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Editar tarefa
+Ao clicar sobre uma deteminada tarefa aparecerá um Pop-up contendo campos que permitirão editar a mesma. Depois de fazer as modificações basta clicar no botão "Salvar". Para sair sem que nenhuma alteração seja realizada clique no botão X que fecha o Pop-up.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Adicionar novo grupo de tarefas](./public/images/ed-1.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Mudar o estado da tarefa
+Para mover uma tarefa para um outro grupo clique sobre ela para abrir o Pop-up de edição. Após isso selecione no menu de opções o grupo para qual a tarefa deverá ser movida. Para confirmar as alterações clique em "Salvar".
 
-## Learn More
+![Adicionar novo grupo de tarefas](./public/images/ed-2.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Remover tarefa
+Para remover uma tarefa clique sobre ela e no Pop-up de edição clique em "Remover".
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Remover grupo de opções
+Para  remover um grupo de tarefas clique sobre o botão X localizado no canto superior direito a cada grupo de tarefas.
