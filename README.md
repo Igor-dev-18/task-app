@@ -49,3 +49,11 @@ Para remover uma tarefa clique sobre ela e no Pop-up de edição clique em "Remo
 
 ### Remover grupo de opções
 Para  remover um grupo de tarefas clique sobre o botão X localizado no canto superior direito a cada grupo de tarefas.
+
+## Extras
+
+### Instalar o node_modules
+npm install
+
+### Executar o projeto
+npm start
